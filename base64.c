@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Taken from shttp://stackoverflow.com/questions/342409/how-do-i-base64-encode-decode-in-c/6782480 
+xD*/
 
 static char *decoding_table = NULL;
 
