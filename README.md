@@ -12,4 +12,5 @@ This is more than PoC I've made in python, but it's working almost the same.
   The shell is communicating with dns server, spoofing the source ip, so the packets are being 'reflected' to real receiver. 
   This connection tehinque may bypass some firewalls, and provide uniqe way of getting shell :)
   
-# Author @Srakai (swientymateusz at gmail d0t com)
+# Author 
+@Srakai (swientymateusz at gmail d0t com)
