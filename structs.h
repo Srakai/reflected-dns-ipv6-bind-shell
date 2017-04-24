@@ -15,9 +15,7 @@ struct dns_hdr
 	unsigned char qr :1; // query/response flag
 
 	unsigned char rcode :4; // response code
-	//unsigned char cd :1; // checking disabled	<-- totaly wrong!
-	//unsigned char ad :1; // authenticated data
-	unsigned char z :3; // its z! reserved		<-- z flag has 3 bits
+	unsigned char z :3; // its z! reserved	
 	unsigned char ra :1; // recursion available
 
 	unsigned short q_count; // number of question entries
