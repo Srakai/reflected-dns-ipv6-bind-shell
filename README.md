@@ -12,12 +12,8 @@
 
   The shell is communicating with dns server, spoofing the source ip, so the packets are being 'reflected' to real receiver.
   
-  SENDER <---------------> DNS_SERVER <---------------------------------> RECEIVER
-          spoofed ip addr              dns server replies to our receiver
-          
-  
-  
-  
+  SENDER <---spoofed ip addr---> DNS_SERVER <---dns server replies to our receiver---> RECEIVER
+                        
   This connection tehinque may bypass some firewalls, and provide uniqe way of getting shell :)
   
 # Author 
